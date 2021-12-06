@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Idle_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree1" translatesAutoresizingMaskIntoConstraints="NO" id="7Ug-22-FYI">
+                                <rect key="frame" x="157" y="398" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0cm-gT-2wl"/>
+                                    <constraint firstAttribute="width" secondItem="7Ug-22-FYI" secondAttribute="height" multiplier="1:1" id="hLt-Wm-RyO"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wS-9a-eee">
+                                <rect key="frame" x="0.0" y="762" width="414" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="nUp-fI-fY7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="actionButtonHandler:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W8Z-6e-fjj"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="BjO-st-OjT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="70"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="KfP-9C-IXT">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="KfP-9C-IXT" secondAttribute="height" multiplier="1:1" id="mgY-eC-2h3"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="WyK-0T-FmL">
+                                        <rect key="frame" x="86" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="WyK-0T-FmL" secondAttribute="height" multiplier="1:1" id="TdQ-Go-NvO"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="bru-Vs-7lK">
+                                        <rect key="frame" x="172" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="bru-Vs-7lK" secondAttribute="height" multiplier="1:1" id="Odz-Wy-Mmb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="zSO-sL-J3E">
+                                        <rect key="frame" x="258" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="zSO-sL-J3E" secondAttribute="height" multiplier="1:1" id="tOE-tr-l1D"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tree5" translatesAutoresizingMaskIntoConstraints="NO" id="Ast-k5-NbD">
+                                        <rect key="frame" x="344" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Ast-k5-NbD" secondAttribute="height" multiplier="1:1" id="Tm6-Xn-kie"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="WyK-0T-FmL" firstAttribute="width" secondItem="WyK-0T-FmL" secondAttribute="height" multiplier="1:1" id="2O7-Hz-dNi"/>
+                                    <constraint firstItem="bru-Vs-7lK" firstAttribute="width" secondItem="bru-Vs-7lK" secondAttribute="height" multiplier="1:1" id="K92-jE-216"/>
+                                    <constraint firstItem="WyK-0T-FmL" firstAttribute="width" secondItem="WyK-0T-FmL" secondAttribute="height" multiplier="1:1" id="MpS-g8-0kE"/>
+                                    <constraint firstItem="KfP-9C-IXT" firstAttribute="width" secondItem="KfP-9C-IXT" secondAttribute="height" multiplier="1:1" id="at9-by-p56"/>
+                                    <constraint firstItem="zSO-sL-J3E" firstAttribute="width" secondItem="zSO-sL-J3E" secondAttribute="height" multiplier="1:1" id="gCg-F5-hIJ"/>
+                                    <constraint firstItem="KfP-9C-IXT" firstAttribute="width" secondItem="KfP-9C-IXT" secondAttribute="height" multiplier="1:1" id="p2u-Zt-qJt"/>
+                                    <constraint firstItem="KfP-9C-IXT" firstAttribute="width" secondItem="KfP-9C-IXT" secondAttribute="height" multiplier="1:1" id="rCr-3j-2jA"/>
+                                    <constraint firstItem="KfP-9C-IXT" firstAttribute="width" secondItem="KfP-9C-IXT" secondAttribute="height" multiplier="1:1" id="szI-iL-qly"/>
+                                    <constraint firstItem="WyK-0T-FmL" firstAttribute="width" secondItem="WyK-0T-FmL" secondAttribute="height" multiplier="1:1" id="tt4-Rv-mun"/>
+                                    <constraint firstItem="bru-Vs-7lK" firstAttribute="width" secondItem="bru-Vs-7lK" secondAttribute="height" multiplier="1:1" id="vH7-KS-Nsy"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="DefaultGreen"/>
+                        <constraints>
+                            <constraint firstItem="7Ug-22-FYI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fkl-dA-bOx"/>
+                            <constraint firstItem="3wS-9a-eee" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IGg-vC-n9x"/>
+                            <constraint firstItem="3wS-9a-eee" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="J35-EK-9AV"/>
+                            <constraint firstItem="3wS-9a-eee" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="LZi-Gj-uic"/>
+                            <constraint firstItem="7Ug-22-FYI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ahK-Jg-S79"/>
+                            <constraint firstItem="BjO-st-OjT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h03-zN-yLO"/>
+                            <constraint firstItem="BjO-st-OjT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oid-sq-36F"/>
+                            <constraint firstItem="BjO-st-OjT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="z4v-eT-RCL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="actionButton" destination="3wS-9a-eee" id="r4A-8D-EHu"/>
+                        <outlet property="mainTreeImageView" destination="7Ug-22-FYI" id="sbx-AU-qd3"/>
+                        <outlet property="widthConstraint" destination="0cm-gT-2wl" id="Uwx-0d-Wef"/>
+                        <outletCollection property="treeTRhumbnails" destination="KfP-9C-IXT" collectionClass="NSMutableArray" id="lx4-uN-dCJ"/>
+                        <outletCollection property="treeTRhumbnails" destination="WyK-0T-FmL" collectionClass="NSMutableArray" id="8QM-wD-P3A"/>
+                        <outletCollection property="treeTRhumbnails" destination="bru-Vs-7lK" collectionClass="NSMutableArray" id="8Bd-s1-hKp"/>
+                        <outletCollection property="treeTRhumbnails" destination="zSO-sL-J3E" collectionClass="NSMutableArray" id="3Ho-UQ-aqk"/>
+                        <outletCollection property="treeTRhumbnails" destination="Ast-k5-NbD" collectionClass="NSMutableArray" id="23o-ob-a9c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Tree1" width="500" height="961.5"/>
+        <image name="Tree5" width="500" height="836.5"/>
+        <namedColor name="DefaultGreen">
+            <color red="0.0" green="0.5607843137254902" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
